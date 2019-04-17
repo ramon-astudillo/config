@@ -25,12 +25,6 @@ set colorcolumn=79
  "   colorscheme mycolorsheme 
 "endif
 
-" Crypto
-set cm=blowfish2
-"set viminfo=
-set nobackup
-set nowritebackup
-
 "Snippets
 map ,p oimport ipdb; ipdb.set_trace(context=30)<ESC>
 "map ,p oimport pdb; pdb.set_trace()<ESC>
